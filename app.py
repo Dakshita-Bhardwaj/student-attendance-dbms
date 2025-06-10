@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace this with your actual Supabase connection string
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:GDakshita@2023@db.fylubgkzkgtvmkqaooth.supabase.co:5432/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:GDakshita%2023@db.fylubgkzkgtvmkqaooth.supabase.co:5432/postgres'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
